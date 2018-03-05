@@ -927,8 +927,8 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<input type=\"button\" value=\"접수하기\" onclick=\"window.open('http://lbiblenet.cafe24.com/addform10/form.php?formid=7&amp;w=730&amp;h=600','winname','scrollbars=yes,toolbar=no,location=no')\">",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "_customHTML": "<iframe src=\"http://lbiblenet.cafe24.com/addform10/form.php?formid=7\" class=\"iframe100\"></iframe>",
+          "_customCSS": ".iframe100 {\n  display: block;\n  border: none;\n  height: 100vh;\n  width: 100vw;\n}\n",
           "alias": "code-editor",
           "_tags": [
             "Extension"

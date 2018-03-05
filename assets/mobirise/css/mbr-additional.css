@@ -831,9 +831,9 @@ blockquote {
 #features7-5 .mbr-section-subtitle {
   text-transform: uppercase;
 }
-#custom-html-b {
-  /* Type valid CSS here */
-}
-#custom-html-b .my-image {
-  width: 100%;
+#custom-html-b .iframe100 {
+  display: block;
+  border: none;
+  height: 100vh;
+  width: 100vw;
 }
